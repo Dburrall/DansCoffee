@@ -96,6 +96,16 @@ nav ul li{
      max-width:50%;
  }
 
+ #popular{
+    text-align:center;
+    border-top:10px solid #60bdd3;
+    color:white;
+    background-color: #000;
+    border-bottom:10px solid #60bdd3;
+
+    
+}
+
  /*FOOTER STYLING*/
 
  #footer{
@@ -154,7 +164,8 @@ a:link {
  #beans{
      text-align: center;
      border:25px solid #000;
-     background:#e4e2e2
+     background:black;
+     color:white;
  }
 
  #beans h1{
@@ -204,6 +215,7 @@ a:link {
      max-width:500px;
      box-shadow: 10px 5px 5px black;
      font-size:22px;
+     color:black;
      
      
  }
@@ -325,6 +337,7 @@ font-family: 'Roboto Slab', serif;
 .button-19:disabled {
   cursor: auto;
 }
+
 
 
 /*// MEDIA QUERIES //*/
