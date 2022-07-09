@@ -148,18 +148,16 @@ a:link {
  /*BEANS SECTION*/
 
 .heroBean{
-    filter: blur(1px);
-    width: 100%;
-
+    width: 70%;
 }
 
 .heroBeanText{
     text-align:center;
     position: absolute;
-    font-size: 68px;
+    font-size: 60px;
     top: 440px;
-    left: 34%;
-    color: white;
+    left: 28%;
+    color: white !important; 
 }
  #beans{
      text-align: center;
@@ -168,72 +166,60 @@ a:link {
      color:white;
  }
 
- #beans h1{
+ #beans h1, h2{
     font-family: 'Roboto Slab', serif;
+    color:#60bdd3
  }
 
- #beans h2{
-    font-family: 'Roboto Slab', serif;
- }
-
-
+ 
  /*/ BEAN SECTION TEXT/*/
 
 #beansSummary{
     letter-spacing: .025em;
     line-height: 1.5;
-    max-width:600px;
-    margin:0 auto;
+    font-size:22px;
     font-family:'Raleway', sans-serif;
-      
+         
+}   
+
+#beansSummary p{
+    max-width:400px;
+    text-align: center;
+    margin:0 auto;
 }
-
-.striped-border {
-     border: 12px double #60bdd3; 
-     width: 60%; 
-     margin: auto; 
-     margin-top: 5%; 
-     margin-bottom: 5%;
-     }
-
-
  .roastFacts{
      display:flex;
-     flex-direction: row;
-     justify-content: space-between;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     border-bottom:10px solid #60bdd3;
  }
-
-
-
  .roastFacts h3{
     font-family: 'Playfair Display', serif;
  }
 
-
  .lightRoast{
-     background:#F5F5DC;
+     background:#FFFFFF;
      max-width:500px;
-     box-shadow: 10px 5px 5px black;
+     box-shadow: 10px 5px 5px #60bdd3;
      font-size:22px;
      color:black;
-     
-     
+      
  }
 
  .mediumRoast{
-     background:#744700;
-     color:#FFFFFF;
+     background:#FFFFFF;
+     color:#000;
      max-width:500px;
-     box-shadow: 10px 5px 5px black;
-     font-size:22px;
-    
+     box-shadow: 10px 5px 5px #60bdd3;
+     font-size:22px;  
  }
 
  .darkRoast{
-     background: #4f1717;
-     color:#FFFFFF;
+     background: #FFFFFF;
+     color:#000;
      max-width:500px;
-     box-shadow: 10px 5px 5px black;
+     box-shadow: 10px 5px 5px #60bdd3;
      font-size:22px;
  }
 
