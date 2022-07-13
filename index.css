@@ -106,6 +106,16 @@ nav ul li{
     
 }
 
+.grid img:hover{
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+ -webkit-box-shadow: 0px 0px 30px 0px #60bdd3;
+-moz-box-shadow:    0px 0px 30px 0px #60bdd3;
+box-shadow:         0px 0px 30px 0px #60bdd3;
+}
+
+
  /*FOOTER STYLING*/
 
  #footer{
@@ -227,20 +237,11 @@ a:link {
  
 /*// UTENSILS SECTION /*/
 
-.card-title{
-    font-family: 'Bebas Neue', cursive;
-font-family: 'Oswald', sans-serif;
-font-family: 'Playfair Display', serif;
-font-family: 'Raleway', sans-serif;
-font-family: 'Roboto Slab', serif;
-    font-size:42px;
+#utensilList{
+    background-color: #000;
 }
 
 .card-title{
-    font-family: 'Bebas Neue', cursive;
-font-family: 'Oswald', sans-serif;
-font-family: 'Playfair Display', serif;
-font-family: 'Raleway', sans-serif;
 font-family: 'Roboto Slab', serif;
     font-size:42px;
 }
@@ -322,6 +323,24 @@ font-family: 'Roboto Slab', serif;
 
 .button-19:disabled {
   cursor: auto;
+}
+
+/*// ARTICLES SECTION //*/
+
+
+
+.articleGrid{
+   
+    border-bottom: 10px solid #60bdd3;
+}
+
+.articleGrid .card:hover {
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 20px;
+ -webkit-box-shadow: 0px 0px 30px 0px #60bdd3;
+-moz-box-shadow:    0px 0px 30px 0px #60bdd3;
+box-shadow:         0px 0px 30px 0px #60bdd3;
 }
 
 
